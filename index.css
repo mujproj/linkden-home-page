@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: open sans;         
+}
+.navcontent{
+    background-image: linear-gradient(to bottom right, #FBFCFD, #E8EBF3);
+}
+header {
+    /* padding: 5px; */
+}
+    
+nav { 
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #6A6A6A; 
+    padding: 0 5px 0 5px; 
+}
+    
+nav a:hover {
+    color: #6945FF; 
+}
+
+
+nav li { 
+    font-size: 15px;
+    display: inline-block; 
+    list-style-type: none;
+}
+
+.image {
+    position: relative;
+    display: inline;
+    height: 25px;
+}
+    
+.active {
+    color: #6945FF; 
+    text-decoration: bold; 
+    font-weight: 600; 
+}
+
+.button {
+    font-weight: 400; 
+    color: white;
+    padding: 7px 20px 7px 20px; 
+    background: #6945FF; 
+    border-color: transparent;
+    border-radius: 50px;
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid transparent;
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    min-width: 5rem;
+    transition: all 0.1s ease-in-out;
+}
+  
+.button:hover {
+    color: white;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+
+.hero {
+    padding: 240px;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+   
+.logo-div{
+  float:left;
+  padding-top: 22px;
+}
+.menu-div{
+  float:right;
+}
+.container{
+  max-width:1140px;
+   width:100%;
+  margin:0 auto;
+}
+.clearfix{
+  display:inline-block;
+   width:100%;
+}
+.search{
+    float:left;
+    padding-top: 20px;
+    padding-left: 25px;
+    height: 1px;
+  }
+#se{
+    height: 25px;
+}
+.co{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+}
+.maincontent {
+    max-width: 90%;
+    margin: auto;
+  }
+.linkdenphoto{
+    width: 100%;
+    height: 100%;
+}
+.activity{
+    background-color: darkgray;
+    height: 25px;
+}
+.styl{
+    width: 25px;
+}
+.oc{
+    font-size: 25px;   
+}
+a{
+    text-decoration: none;
+}
+.boundary{
+    border: 1px solid black;
+}
+.footer {
+  background-color: chocolate;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.footer img{
+    width: 50px;
+}
+.footer .co{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.l{
+    float: right;
+}
